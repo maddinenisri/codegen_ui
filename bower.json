@@ -1,0 +1,44 @@
+{
+  "name": "codegen_ui",
+  "version": "0.1.0",
+  "description": "Yet another amazing AngularJS app",
+  "keywords": [
+    "angular"
+  ],
+  "homepage": "https://github.com/maddinenisri/codegen-ui",
+  "bugs": "https://github.com/maddinenisri/codegen-ui/issues",
+  "author": {
+    "name": "Srini Maddineni",
+    "email": "",
+    "url": "https://github.com/maddinenisri"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/maddinenisri/codegen-ui.git"
+  },
+  "licenses": [
+    {
+      "type": "MIT"
+    }
+  ],
+  "dependencies": {
+    "bootstrap": "3.3.7",
+    "font-awesome": "4.6.3",
+    "ui-router": "0.2.18",
+    "angular-animate": "^1.5.8",
+    "angular-resource": "^1.5.8",
+    "angular-route": "^1.5.8",
+    "angular-sanitize": "^1.5.8",
+    "angular": "^1.5.8",
+    "bootstrap-css": "^3.3.6"
+  },
+  "overrides": {
+    "bootstrap": {
+      "main": [
+        "dist/js/bootstrap.js",
+        "dist/css/bootstrap.css",
+        "less/bootstrap.less"
+      ]
+    }
+  }
+}

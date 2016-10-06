@@ -1,0 +1,6 @@
+<h3 class="masthead-brand">Cover{{$path()}}</h3>
+<ul class="nav masthead-nav" bs-nav>
+  <li ng-class="{active: $path() == '/'}"><a ui-serf="home">Home</a></li>
+  <li ng-class="{active: $path() == '/features'}"><a ui-serf="features">Features</a></li>
+  <li ng-class="{active: $path() == '/contact'}"><a ui-serf="contact">Contact</a></li>
+</ul>
