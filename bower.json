@@ -30,7 +30,7 @@
     "angular-route": "^1.5.8",
     "angular-sanitize": "^1.5.8",
     "angular": "^1.5.8",
-    "bootstrap-css": "^3.3.6"
+    "ngFlowchart": "^0.5.1"
   },
   "overrides": {
     "bootstrap": {
@@ -39,5 +39,8 @@
         "less/bootstrap.less"
       ]
     }
+  },
+  "resolutions": {
+    "angular": "^1.5.8"
   }
 }
